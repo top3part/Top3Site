@@ -4,7 +4,7 @@
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
-  --primary: #155bd5;
+  --primary: #1b1d20;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
@@ -963,6 +963,8 @@ p {
   padding-top: 50px;
   padding-bottom: 100px;
   position: relative;
+  background-image: url('../images/company.jpg');
+  background-size: 100%;
   /* Section Title Six */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -990,6 +992,9 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+.single-service p{
+  min-height:180px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-seven .single-service {
@@ -1130,10 +1135,9 @@ p {
 
 /*===== VIDEO TWO =====*/
 .video-two {
-  background-color: var(--primary);
   position: relative;
   z-index: 9;
-  padding-top: 200px;
+  padding-top: 120px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .video-two {
@@ -2310,7 +2314,7 @@ p {
 
 .video-player {
   width: 100%;
-  height: 350px;
+  height: 500px;
   display: block;
 }
 
